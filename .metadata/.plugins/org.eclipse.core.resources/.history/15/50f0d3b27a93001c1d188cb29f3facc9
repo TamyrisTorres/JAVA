@@ -1,0 +1,38 @@
+package cesar;
+
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class ExemploHashMap {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+
+		HashMap<String, Integer> Map = new HashMap<String, Integer>();
+		
+		Map.put("um", 1);
+		Map.put("dois", 2);
+		Map.put("três", 3);
+		Map.put("quatro", 4);
+		Map.put("cinco", 5);
+		
+		System.out.println("Digite um número de um a cinco.");
+		String numero = entrada.next();
+		
+		for(String i : Map.keySet()) {
+			if(Map.containsKey(numero)){
+			System.out.println("Chave: " + i + ", valor: " + Map);
+			}else {
+				System.out.println("Processo Finalizado");
+			}
+		}
+		
+
+		entrada.close();
+		
+	}
+
+	
+
+}

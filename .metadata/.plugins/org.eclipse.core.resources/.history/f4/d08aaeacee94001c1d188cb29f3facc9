@@ -1,0 +1,15 @@
+package cesar;
+
+public class MapExemplo {
+	
+	
+	/*
+	 * @Override public boolean equals(Object objeto) { MapExemplo outro =
+	 * (MapExemplo) objeto;
+	 * 
+	 * return super.equals(objeto); }
+	 */
+	
+	
+
+}

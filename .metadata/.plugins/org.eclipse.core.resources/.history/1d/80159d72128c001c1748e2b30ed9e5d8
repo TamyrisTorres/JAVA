@@ -1,0 +1,34 @@
+package EstruturasDeControle;
+
+import java.util.Scanner;
+
+public class ExercicioQuestao6 {
+
+	public static void main(String[] args) {
+
+		Scanner entrada = new Scanner(System.in);
+
+		int numero = 25;
+		int tentativa = 3;
+		int numeroAdvinha = 0;
+
+		do {
+			System.out.println("Digite um número: ");
+			numeroAdvinha = entrada.nextInt();
+
+			if (numeroAdvinha == numero) {
+				System.out.println("Parabéns! Você acertou! ;P");
+			}
+			else if (numeroAdvinha != numero) {
+				System.out.println("Você Errou!");
+				tentativa--;
+				System.out.printf("Você tem mais %d tentativas!\n", tentativa);
+			}
+
+		} while (tentativa != 0);
+
+		entrada.close();
+
+	}
+
+}

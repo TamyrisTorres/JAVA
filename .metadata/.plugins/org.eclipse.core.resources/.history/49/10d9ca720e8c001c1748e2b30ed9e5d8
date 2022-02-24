@@ -1,0 +1,28 @@
+package EstruturasDeControle;
+
+import java.util.Scanner;
+
+public class ExercicioQuestao4 {
+
+	public static void main(String[] args) {
+
+		Scanner entrada = new Scanner(System.in);
+
+		int numero;
+
+		System.out.println("Digite um número: ");
+		numero = entrada.nextInt();
+
+		for (int i = 2; i <= numero; i++) {
+
+			if (numero % i == 0) {
+				System.out.println("O número informado é um número primo.");
+			} else {
+				System.out.println("O número informado não é um número primo.");
+			}
+		}
+
+		entrada.close();
+	}
+
+}

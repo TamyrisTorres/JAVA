@@ -1,0 +1,17 @@
+package cesar;
+
+public class Solucao {
+	
+	int d;
+	String s;
+	
+	public int Solucao(int d, String s) {
+		this.d = d;
+		for (int i = 0; i < 5; i++) {
+			
+			
+		}
+		
+	}
+
+}

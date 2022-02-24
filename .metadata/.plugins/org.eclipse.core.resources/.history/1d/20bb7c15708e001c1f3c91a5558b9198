@@ -1,0 +1,10 @@
+package classe;
+
+public class DesafioPessoa {
+	
+	String nome;
+	double peso;
+	
+	
+
+}

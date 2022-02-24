@@ -1,0 +1,32 @@
+package classe;
+
+public class Produto {
+
+	String nome;
+	double preco;
+	double desconto;
+
+	Produto() {// construtor padrão. A classe já possui esse construtor implicito sem
+				// parametros.
+
+	}
+
+	Produto(String nomeInicial, double precoInicial, double descontoInicial) {//não incluir o tipo.
+		nome = nomeInicial;
+		preco = precoInicial;
+		desconto = descontoInicial;
+	}
+
+	double precoComDesconto() {
+
+		return preco * (1 - desconto);
+
+	}
+
+	double precoComDesconto(double descontoGerente) {
+
+		return preco * (1 - desconto + descontoGerente);
+
+	}
+
+}

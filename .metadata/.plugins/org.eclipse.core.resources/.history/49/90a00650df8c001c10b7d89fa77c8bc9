@@ -1,0 +1,21 @@
+package classe;
+
+public class DataTeste {
+	
+	public static void main(String[] args) {
+		
+		Data dataAniversario = new Data();
+		dataAniversario.dia = 15;
+		dataAniversario.mes = 12;
+		dataAniversario.ano = 1987;
+		
+		Data dataCasamento = new Data();
+		dataCasamento.dia = 30;
+		dataCasamento.mes = 10;
+		dataCasamento.ano = 2012;
+		
+		System.out.printf("O aniversário de Tamyris é no dia %d/%d/%d", dataAniversario.mes, dataAniversario.mes, dataAniversario.ano);
+		
+	}
+
+}
