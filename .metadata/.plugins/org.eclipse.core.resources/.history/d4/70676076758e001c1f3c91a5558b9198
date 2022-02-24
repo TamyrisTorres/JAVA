@@ -1,9 +1,0 @@
-package classe;
-
-public class DesafioComida {
-	
-	String nomeComida;
-	double pesoComida;
-	
-
-}
